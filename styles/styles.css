@@ -14,6 +14,8 @@ span[class~="sr-only"] {
     white-space: nowrap !important;
     padding: 0 !important;
     margin: -1px !important;
+    /* Note: All important declarations take precedence over all animations.
+     !important is not valid within @keyframes animation declarations. */
   }
   
   html {
